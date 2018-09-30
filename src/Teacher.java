@@ -1,6 +1,6 @@
 public class Teacher extends  PeopleAtSchool{
-    private String firstName;
-    private String lastName;
+    //private String firstName;
+    //private String lastName;
     private String faculty;
     private int workExperience;
     private double salary;
@@ -12,7 +12,7 @@ public class Teacher extends  PeopleAtSchool{
         this.salary = salary;
     }
 
-    public String getFirstName() {
+    /*public String getFirstName() {
         return firstName;
     }
 
@@ -26,7 +26,7 @@ public class Teacher extends  PeopleAtSchool{
 
     public void setLastName(String lastName) {
         this.lastName = lastName;
-    }
+    }*/
 
     public String getFaculty() {
         return faculty;

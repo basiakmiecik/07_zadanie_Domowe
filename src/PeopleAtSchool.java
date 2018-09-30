@@ -1,6 +1,6 @@
 public class PeopleAtSchool {
-    String firstName;
-    String lastName;
+    private String firstName;
+    private String lastName;
 
     public PeopleAtSchool(){}
 

@@ -1,10 +1,12 @@
 public class PeopleAtSchool {
     String firstName;
-    String lastNem;
+    String lastName;
+
+    public PeopleAtSchool(){}
 
     public PeopleAtSchool(String firstName, String lastNem) {
         this.firstName = firstName;
-        this.lastNem = lastNem;
+        this.lastName = lastNem;
     }
 
     public String getFirstName() {
@@ -15,11 +17,14 @@ public class PeopleAtSchool {
         this.firstName = firstName;
     }
 
-    public String getLastNem() {
-        return lastNem;
+    public String getLastName() {
+        return lastName;
     }
 
     public void setLastNem(String lastNem) {
-        this.lastNem = lastNem;
+        this.lastName = lastNem;
+    }
+    public void showInfo(){
+        System.out.print(firstName+" "+lastName);
     }
 }

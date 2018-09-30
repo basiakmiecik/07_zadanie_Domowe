@@ -1,9 +1,16 @@
-public class Teacher {
+public class Teacher extends  PeopleAtSchool{
     private String firstName;
     private String lastName;
     private String faculty;
     private int workExperience;
     private double salary;
+
+    public Teacher(String firstName, String lastNem, String faculty, int workExperience, double salary) {
+        super(firstName, lastNem);
+        this.faculty = faculty;
+        this.workExperience = workExperience;
+        this.salary = salary;
+    }
 
     public String getFirstName() {
         return firstName;
@@ -46,6 +53,8 @@ public class Teacher {
     }
 
     public void showInfo(){
-        System.out.println("Teacher: "+firstName+" "+lastName+" "+faculty+" "+workExperience+" "+salary);
+        System.out.print("Teacher: ");
+        super.showInfo();
+        System.out.println(" "+faculty+" "+workExperience+" "+salary);
     }
 }

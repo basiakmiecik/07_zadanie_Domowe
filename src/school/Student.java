@@ -56,6 +56,7 @@ public class Student extends PeopleAtSchool {
         this.gradeAverage = gradeAverage;
     }
 
+    @Override
     public void showInfo(){
         System.out.print("school.Student: ");
         super.showInfo();

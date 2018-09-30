@@ -56,6 +56,7 @@ public class Teacher extends PeopleAtSchool {
         this.salary = salary;
     }
 
+    @Override
     public void showInfo(){
         System.out.print("school.Teacher: ");
         super.showInfo();

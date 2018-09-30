@@ -26,6 +26,7 @@ public class PeopleAtSchool {
     public void setLastNem(String lastNem) {
         this.lastName = lastNem;
     }
+
     public void showInfo(){
         System.out.print(firstName+" "+lastName);
     }

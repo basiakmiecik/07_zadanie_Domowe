@@ -1,4 +1,8 @@
-public class Student extends PeopleAtSchool{
+package school;
+
+import school.PeopleAtSchool;
+
+public class Student extends PeopleAtSchool {
    // private String firstName;
     //private String lastName;
     private int classYear;
@@ -53,7 +57,7 @@ public class Student extends PeopleAtSchool{
     }
 
     public void showInfo(){
-        System.out.print("Student: ");
+        System.out.print("school.Student: ");
         super.showInfo();
         System.out.println(" "+classYear+" "+gradeAverage+" "+yearBirth);
     }

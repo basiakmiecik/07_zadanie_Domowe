@@ -1,4 +1,8 @@
-public class Teacher extends  PeopleAtSchool{
+package school;
+
+import school.PeopleAtSchool;
+
+public class Teacher extends PeopleAtSchool {
     //private String firstName;
     //private String lastName;
     private String faculty;
@@ -53,7 +57,7 @@ public class Teacher extends  PeopleAtSchool{
     }
 
     public void showInfo(){
-        System.out.print("Teacher: ");
+        System.out.print("school.Teacher: ");
         super.showInfo();
         System.out.println(" "+faculty+" "+workExperience+" "+salary);
     }

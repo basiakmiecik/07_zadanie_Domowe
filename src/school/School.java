@@ -1,3 +1,5 @@
+package school;
+
 public class School {
     public static void main(String[] args) {
 
@@ -9,7 +11,7 @@ public class School {
        student1.showInfo();
 
        /* Wersja bez dziedziczenia
-       Teacher teacher1=new Teacher();
+       school.Teacher teacher1=new school.Teacher();
         teacher1.setFirstName("Anna");
         teacher1.setLastName("Nowak");
         teacher1.setFaculty("Mathematics");
@@ -18,7 +20,7 @@ public class School {
 
         teacher1.showInfo();
 
-        Student student1=new Student();
+        school.Student student1=new school.Student();
         student1.setFirstName("Jan");
         student1.setLastName("Kowalik");
         student1.setClassYear(4);

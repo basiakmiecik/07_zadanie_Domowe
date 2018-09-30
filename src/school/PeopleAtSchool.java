@@ -1,3 +1,5 @@
+package school;
+
 public class PeopleAtSchool {
     private String firstName;
     private String lastName;

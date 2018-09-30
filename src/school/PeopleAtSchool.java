@@ -4,11 +4,10 @@ public class PeopleAtSchool {
     private String firstName;
     private String lastName;
 
-    public PeopleAtSchool(){}
 
-    public PeopleAtSchool(String firstName, String lastNem) {
+    public PeopleAtSchool(String firstName, String lastName) {
         this.firstName = firstName;
-        this.lastName = lastNem;
+        this.lastName = lastName;
     }
 
     public String getFirstName() {
@@ -23,8 +22,8 @@ public class PeopleAtSchool {
         return lastName;
     }
 
-    public void setLastNem(String lastNem) {
-        this.lastName = lastNem;
+    public void setLastNem(String lastName) {
+        this.lastName = lastName;
     }
 
     public void showInfo(){

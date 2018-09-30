@@ -9,8 +9,8 @@ public class Student extends PeopleAtSchool {
     private int yearBirth;
     private double gradeAverage;
 
-    public Student(String firstName, String lastNem, int classYear, int yearBirth, double gradeAverage) {
-        super(firstName, lastNem);
+    public Student(String firstName, String lastName, int classYear, int yearBirth, double gradeAverage) {
+        super(firstName, lastName);
         this.classYear = classYear;
         this.yearBirth = yearBirth;
         this.gradeAverage = gradeAverage;
